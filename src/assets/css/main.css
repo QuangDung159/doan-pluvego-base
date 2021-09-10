@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+#root {
+    font-family: 'Montserrat', sans-serif,system-ui, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+/* input */
+.t_input {
+    @apply shadow-md border border-t_gray rounded-full py-2 px-5
+}
+.t_err {
+    @apply text-t_red text-sm my-1
+}
+
+/* box */
+.t_box {
+    @apply shadow-lg bg-t_white rounded-sm p-5
+}
+
+/* text */
+.t_title {
+    @apply text-2xl font-bold
+}
+.t_subtitle {
+    @apply text-xl font-bold
+}
+
+/* button */
+.t_empty_btn {
+    @apply font-medium w-32 px-5 py-1 border-2 border-t_green rounded-3xl flex justify-center items-center shadow-lg hover:bg-t_blue hover:text-t_white
+}
+
+.t_btn {
+    @apply font-medium px-5 py-1 bg-t_blue_dark rounded-3xl flex justify-center items-center shadow-lg hover:bg-t_blue text-t_white hover:text-t_white
+}
+.t_btn_fix {
+    @apply font-medium w-32 px-5 py-1 bg-t_blue_dark rounded-3xl flex justify-center items-center shadow-lg hover:bg-t_blue text-t_white hover:text-t_white
+}
+
+.t_btn-red {
+    @apply font-medium w-32 px-5 py-1 bg-t_red rounded-3xl flex justify-center items-center shadow-lg hover:bg-t_blue text-t_white hover:text-t_white
+}
+
+/* focus */
+*:focus {
+    outline: 0 !important;
+}
