@@ -4,7 +4,7 @@ import Header from '@Components/utility/header'
 import Footer from '@Components/utility/footer'
 
 const MainLayout = ({ children }) => (                         
-    <div class="w-full">
+    <div className="w-full">
       <Header/>
       <section>
         <article>{children}</article>

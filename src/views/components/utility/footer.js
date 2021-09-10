@@ -6,8 +6,8 @@ const Footer = () => {
     const [showSidebar, setShowSidebar] = useState(0);
 
     return (
-        <div class="h-24 z-10 bg-t_lightgray text-gray-700 flex">
-            <div class="container max-w-screen-xl flex items-center justify-between">
+        <div className="h-24 z-10 bg-t_lightgray text-gray-700 flex">
+            <div className="container max-w-screen-xl flex items-center justify-between">
               footer---
             </div>
         </div>
